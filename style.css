@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.h1 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+    width: 5%;
+}
+
+.q1 {
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.q1 svg {
+    fill: white;
+    height: 3.8vh;
+}
+
+.q2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.q2 svg{
+    fill: black;
+    height: 20px;
+    width: 20px;
+}
+.imgs{
+    flex-grow: 1;
+    background-size: cover;
+    background-position: 20% 0;
+    background-color: rgba(0, 0, 0,);
+    background-blend-mode: multiply;
+    transition: 0.4s;
+}
+
+#gallery{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    }
+    
+    .imgs { flex-grow: 1;
+        transition: 1s;}
+    .imgs:hover { flex-grow: 6;
+        transition: 1s;}
+    
+    #calango{
+        background-image: url(imagens/5.jpg.webp);
+     
+        flex-grow:6;
+    }
+    
+    #moca{
+        background-image: url(imagens/1.jpg.webp);
+    
+    }
+    
+    #dog{
+        background-image: url(imagens/2.jpg.webp);
+    
+    }
+    
+    #whater{
+        background-image: url(imagens/3.jpg.webp);
+    
+    }
+    
+    #carro{
+        background-image: url(imagens/4.jpg.webp);
+       
+    }
+    
+    
+    #gallery:hover #calango { flex-grow: 1;
+        transition: 1s;}
+    #gallery:hover #calango:hover { flex-grow: 6;
+    transition: 1s;}
+    
+    
+    
+    #div2{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+    }
+    p{
+        color: white;
+        font-size: 60px;
+        margin-top: 700px;
+        position: absolute;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        margin-left: 60px;
+    }
+    
+    h1{
+        color: white;
+        font-size: 60px;
+        font-size: 24px;
+        position: absolute;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 800px;
+        margin-left: 60px;
+    }
+    
+    
+.imgs #text{
+        opacity: 0;
+    }
+.imgs:hover #text{
+    opacity: 1;
+        transition: 1s;
+}
+    
